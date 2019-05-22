@@ -27,6 +27,12 @@ public class JacksonObjectMapper {
 
 		System.out.println("object: " + emp1);
 
+		/*
+		 * object to json
+		 * System.err.println(objectMapper.writerWithDefaultPrettyPrinter().
+		 * writeValueAsString(emp1));
+		 */
+
 		// convert object to json string
 		Employee emp2 = createEmployee();
 
